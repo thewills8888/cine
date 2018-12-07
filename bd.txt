@@ -1,0 +1,6 @@
+create database pelicula;
+use pelicula;
+create table clientes (nombre varchar(20),direccion varchar(20),telefono varchar(20),pelicula varchar(20));
+create table estreno (id int(10),nombre varchar (20),fecha date ,categoria varchar (20));
+create table categoria (id int (10),nombre varchar(20),año int (10),disponible varchar (10));
+create table personal (id int (10),nombre varchar (20),cargo varchar (20),ntiguedad varchar(20));
